@@ -7,4 +7,6 @@ class Knight
     # Push postion to history array in game board class
     Board.new.history.push(position)
   end
+
+  attr_accessor :position, :parent
 end 
