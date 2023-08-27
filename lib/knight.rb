@@ -5,8 +5,9 @@ class Knight
     # A pointer to its origin (previous position)
     @parent = parent
     # Push postion to history array in game board class
-    Board.new.history.push(position)
+    Board.new.history.push(@position)
   end
 
   attr_accessor :position, :parent
-end 
+end
+
